@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Presentación de los integrantes del proyecto de Análisis y Diseño de Sistemas Informáticos (ADS) - Facultad de Ingeniería.">
+  <title>Equipo de Trabajo | Análisis y Diseño de Sistemas Informáticos</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container header-container">
+      <div class="header-academic">
+        <span class="institution-name">Facultad de Ingeniería</span>
+        <span class="subject-name">Análisis y Diseño de Sistemas Informáticos (ADS)</span>
+      </div>
+      <div class="header-docente">
+        <span>Docente:</span> <strong>Juan Miranda</strong>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro-section">
+      <h1 class="page-title">Integrantes del Proyecto</h1>
+      <p class="page-subtitle">
+        Equipo de estudiantes a cargo del desarrollo del proyecto para la cátedra de Análisis y Diseño de Sistemas
+        Informáticos.
+      </p>
+    </section>
+
+    <section class="team-section">
+      <div class="team-grid" id="teamGrid">
+      </div>
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true" role="dialog" aria-labelledby="modalName">
+    <div class="modal-card">
+      <button class="modal-close" id="modalCloseBtn" aria-label="Cerrar ventana">&times;</button>
+
+      <div class="modal-header">
+        <div class="modal-photo-wrapper">
+          <img src="" alt="" id="modalPhoto" class="modal-photo">
+          <div class="photo-fallback" id="modalPhotoFallback"></div>
+        </div>
+
+        <div class="modal-summary">
+          <div class="modal-meta-row">
+            <span class="carnet-pill" id="modalCarnet">Carné</span>
+            <span class="role-pill" id="modalRole">Rol</span>
+          </div>
+          <h2 class="modal-name" id="modalName">Nombre Completo</h2>
+          <p class="modal-career" id="modalCareer">Carrera</p>
+        </div>
+      </div>
+
+      <div class="modal-content">
+        <div class="detail-section" id="modalBioSection">
+          <h3 class="detail-title">Descripción personal</h3>
+          <p class="detail-text" id="modalBio"></p>
+        </div>
+
+        <div class="detail-section" id="modalActivitiesSection">
+          <h3 class="detail-title">Actividades realizadas</h3>
+          <ul class="activities-list" id="modalActivities"></ul>
+        </div>
+        <div class="modal-pending-box" id="modalPendingBox" style="display: none;">
+          <div class="modal-pending-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <h3 class="modal-pending-title">Información de perfil pendiente</h3>
+          <p class="modal-pending-text">Este integrante aún tiene pendiente completar sus datos de rol, descripción
+            personal y actividades en el proyecto.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>Facultad de Ingeniería • Análisis y Diseño de Sistemas Informáticos (ADS)</p>
+      <p class="footer-sub">Docente: Juan Miranda</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
