@@ -42,14 +42,19 @@ const TEAM_MEMBERS = [
     nombres: "Alexis Ernesto",
     apellidos: "Hernández Monge",
     carnet: "HM253055",
-    rol: "Pendiente",
-    categoriaRol: "pendiente",
-    carrera: "",
-    formacion: "",
-    bio: "",
-    foto: "",
-    pendiente: true,
-    actividades: []
+    rol: "Desarrollo Backend & Base de Datos",
+    categoriaRol: "backend",
+    carrera: "Ingeniería en Ciencias de la Computación (Modalidad Virtual)",
+    formacion: "Técnico en Ingeniería y Ciencias de la Computación",
+    bio: "Estudiante participante del proyecto académico de Análisis y Diseño de Sistemas Informáticos (ADS), enfocado en el desarrollo backend y la gestión de bases de datos. Interesado en la implementación de la lógica de negocio, el procesamiento de información y la integración de los componentes del sistema.",
+    foto: "assets/Alexis.jpg",
+    pendiente: false,
+    actividades: [ 
+      "Desarrollo de la lógica de negocio y funcionalidades del backend.", 
+      "Diseño y gestión de bases de datos para el sistema.", 
+      "Implementación y mantenimiento de las operaciones de procesamiento de datos.", 
+      "Integración de los componentes del sistema y colaboración con el equipo de desarrollo." 
+    ]
   },
   {
     id: "joel-granados",
