@@ -56,14 +56,19 @@ const TEAM_MEMBERS = [
     nombres: "Joel Ernesto",
     apellidos: "Granados Mejia",
     carnet: "GM251189",
-    rol: "Pendiente",
-    categoriaRol: "pendiente",
-    carrera: "",
-    formacion: "",
-    bio: "",
-    foto: "",
-    pendiente: true,
-    actividades: []
+    rol: "Aseguramiento de Calidad",
+    categoriaRol: "QA",
+    carrera: "Ingeniería en Ciencias de la Computación (Modalidad Virtual)",
+    formacion: "Diplomado en ingles nivel intermedio, Diplomado en TI: Hardware y redes",
+    bio: "Estudiante de Ingenieria en ciencias de la computacion, enfocado en la programacion Python, JS, Java, VBA. ",
+    foto: "assets/Joel.jpg",
+    pendiente: false,
+    actividades: [
+      "Creacion de casos y planes de prueba.",
+      "Pruebas de compatibilidad multidispositivo y multinavegador.",
+      "Reporte y documentacion clara de fallos.",
+      "Pruebas de regresion."
+    ]
   },
   {
     id: "orlando-avalos",
