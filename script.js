@@ -261,7 +261,23 @@ function setupListeners() {
   });
 }
 
+const savedTheme = localStorage.getItem("udb_theme") || "light";
+document.documentElement.setAttribute("data-theme", savedTheme);
+
+function initTheme() {
+  const themeToggle = document.getElementById("themeToggle");
+  if (themeToggle) {
+    themeToggle.addEventListener("click", () => {
+      const currentTheme = document.documentElement.getAttribute("data-theme") || "light";
+      const nextTheme = currentTheme === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", nextTheme);
+      localStorage.setItem("udb_theme", nextTheme);
+    });
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+  initTheme();
   renderCards(TEAM_MEMBERS);
   setupListeners();
 });
