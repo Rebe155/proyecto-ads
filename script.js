@@ -58,21 +58,26 @@ const TEAM_MEMBERS = [
     bio: "",
     foto: "",
     pendiente: true,
-    actividades: []
+    actividades: []        
   },
   {
     id: "orlando-avalos",
     nombres: "Orlando Alfredo",
     apellidos: "Avalos",
     carnet: "AA202252",
-    rol: "Pendiente",
-    categoriaRol: "pendiente",
-    carrera: "",
-    formacion: "",
-    bio: "",
-    foto: "",
-    pendiente: true,
-    actividades: []
+    rol: "Ingeniero NOC",
+    categoriaRol: "NOC",
+    carrera: "Ingeniería en Ciencias de la Computación (Modalidad Virtual)",
+    formacion: "Tecnico en redes computacionales",
+    bio: "Estudiante de la carrera virtual de Ingeniería en Ciencias de la Computación y Técnica en redes computacionales.",
+    foto: "assets/Orlando.jpg",
+    pendiente: false,
+    actividades: [
+      "Soporte N2 para la infraestructura de clientes de la red B2B de la empresa.",
+      "Monitoreo de la red y resolución de incidencias.",
+      "Mantenimiento de la infraestructura de red y servidores.",
+      "Documentación de procesos y procedimientos técnicos."
+    ]
   }
 ];
 
