@@ -23,14 +23,19 @@ const TEAM_MEMBERS = [
     nombres: "Blanca Esmeralda",
     apellidos: "Maravilla Cruz",
     carnet: "MC240030",
-    rol: "Pendiente",
-    categoriaRol: "pendiente",
-    carrera: "",
-    formacion: "",
-    bio: "",
-    foto: "",
-    pendiente: true,
-    actividades: []
+    rol: "Desarrolladora Frontend",
+    categoriaRol: "frontend",
+    carrera: "Ingeniería en Ciencias de la Computación (Modalidad Virtual)",
+    formacion: "Técnica en Ingeniería y Ciencias de la Computación, Diplomada en Inglés Intermedio e Informática",
+    bio: "Estudiante de Ingeniería en Ciencias de la Computación con enfoque en desarrollo web frontend. Apasionada por construir interfaces intuitivas, optimización de rendimiento y experiencias de usuario modernas y dinámicas.",
+    foto: "assets/Blanca.jpeg",
+    pendiente: false,
+    actividades: [
+      "Implementación de interfaces web responsivas y accesibles.",
+      "Integración de componentes interactivos con JavaScript moderno.",
+      "Optimización de rendimiento frontend y compatibilidad entre navegadores.",
+      "Consumo e integración de APIs REST en el cliente."
+    ]
   },
   {
     id: "alexis-hernandez",
@@ -58,7 +63,7 @@ const TEAM_MEMBERS = [
     bio: "",
     foto: "",
     pendiente: true,
-    actividades: []        
+    actividades: []
   },
   {
     id: "orlando-avalos",
